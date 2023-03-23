@@ -6,32 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="res/html.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Divine</title>
 </head>
 <body>
     <header>
-        <div><h3>CID</h3></div>
+        <div class="H-div">
+            <h3 class="H-head">CID</h3>
+        </div>
         <nav>
-            <ul>
-                <li> <a href="#home">Home</a></li>
-                <li><a href="#about">about-me</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#contact">contact-me</a></li>
+            <ul class="ul-list">
+                <li class="H-list"><a class="H-a" href="#home">Home </a></li>
+                <li class="H-list"><a  class="H-a" href="#about">about-me</a></li>
+                <li class="H-list"><a  class="H-a" href="#work">work</a></li>
+                <li class="H-list"><a  class="H-a" href="#contact">contact-me</a></li>
             </ul>
         </nav>
     </header>
     <main>
     <section id="home">
-<div class="">
+<div class="Home-top">
     <h1>I am Divine Igwe</h1>
     <h5>i am Divine, a fullstack developer <br> with long time experience in this field.</h5>
 </div>
-<div class="">
+<div class="Home-bottom">
     <img src="res/IMG_1562.JPG" alt="authors photo">
 </div>
-
         </section>
-
         <section id="about">
             <audio controls> 
                 <source src="res/clip-1.mp3" type="">
@@ -58,7 +59,17 @@
     <section id="contact">
         <h2>Get In Touch</h2>
         <h3>i occasionally take on <br>freelance opportunities</h3>
-        <p>Do you have an exciting project where you need some help?<br>send me over a message. </p>
+        <p>Do you have an exciting project where you need some help?<br>
+            <form action="">
+                <label for="Fname">First Name:</label>
+                <input type="text" id="Fname" name="Fname">
+                <label for="Lname">Last Name:</label>
+                <input type="text" id="Lname" name="Lname"> <br><br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Fname" name="Fname">
+                <label for="Tphone">Tel:</label>
+                <input type="number" name="Tphone" id="Tphone">
+            </form> send me over a message or</p> 
         <button><a  href="mailto:igwechibuikedivine@email.com">CONTACT ME</a></button>
     </section>
     </main>
